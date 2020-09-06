@@ -1,16 +1,19 @@
-# 1 这是什么
+# 1 Spring Boot demo
 
-`Spring Boot`入门级别`Demo`。
+该仓库是`Spring Boot`的`Demo`合集，使用`Kotlin`实现。
 
 # 2 环境
 
 - `OpenJDK 11.0.8`
 - `IDEA 2020.2`
 - `Manjaro`
+- `Gradle`
+- `Kotlin`
 
 # 3 目前已实现
 
 - [Helloworld](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/DemoHelloworld)
+- [WebWithMybatis](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMybatis)_
 
 # 4 `Java`版
 
