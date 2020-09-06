@@ -13,7 +13,7 @@
 # 3 目前已实现
 
 - [Helloworld](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/DemoHelloworld)
-- [WebWithMybatis](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMybatis)_
+- [WebWithMybatis](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMybatis)
 
 # 4 `Java`版
 
