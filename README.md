@@ -13,15 +13,16 @@
 # 3 目前已实现
 
 - [Helloworld](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/DemoHelloworld)
-- [WebWithMybatis](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMybatis)
+- [Spring Web + MyBatis](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMybatis)
+- [Spring Web + MyBatis Plus](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMyBatisPlus)
 
-# 4 `Java`版
+# 4 `Java`版`demo`合集
 
 - [Github](https://github.com/2293736867/SpringBootDemoJava)
 - [码云](https://gitee.com/u6b7b5fc3/SpringBootDemoJava)
 
 
-# 5 后记
+# 5 其他
 
 如果觉得对您有帮助可以点个`star`或者关注一下笔者的微信公众号：
 
