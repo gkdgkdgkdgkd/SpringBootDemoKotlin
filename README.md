@@ -15,6 +15,7 @@
 - [Helloworld](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/DemoHelloworld)
 - [Spring Web + MyBatis](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMybatis)
 - [Spring Web + MyBatis Plus](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMyBatisPlus)
+- [Hibernate Validator](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/HibernateValidator)
 
 # 4 `Java`版`demo`合集
 
