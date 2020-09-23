@@ -19,6 +19,7 @@
 - [Docker部署](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Docker)
 - [HTTPS](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/HTTPS)
 - [Mail](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Mail)
+- [Swagger](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Swagger)
 
 # 4 `Kotlin`版
 
