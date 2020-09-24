@@ -20,6 +20,7 @@
 - [HTTPS](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/HTTPS)
 - [Mail](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Mail)
 - [Swagger](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Swagger)
+- [Jasypt](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Jasypt)
 
 # 4 `Kotlin`版
 
