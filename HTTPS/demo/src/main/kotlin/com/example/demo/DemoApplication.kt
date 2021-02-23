@@ -7,11 +7,11 @@ import org.springframework.web.bind.annotation.RestController
 
 @SpringBootApplication
 @RestController
-class DemoApplication
-{
+class DemoApplication {
     @GetMapping("/")
     fun test() = "success"
 }
+
 
 fun main(args: Array<String>) {
     runApplication<DemoApplication>(*args)
