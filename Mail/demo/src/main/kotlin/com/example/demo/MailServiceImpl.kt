@@ -11,17 +11,16 @@ import java.nio.file.Path
 import javax.mail.internet.MimeMessage
 
 @Service
-class MailServiceImpl:MailService {
+class MailServiceImpl : MailService {
     @Autowired
-    lateinit var sender:JavaMailSender
+    lateinit var sender: JavaMailSender
 
-    companion object{
+    companion object {
         var from = ""
     }
 
     @Value("\${spring.mail.username}")
-    fun setFrom(username:String)
-    {
+    fun setFrom(username: String) {
         from = username
     }
 
@@ -35,14 +34,14 @@ class MailServiceImpl:MailService {
         sender.send(message)
     }
 
-    override fun sendAttachmentMail(to: String, subject: String,content: String, file: Path) {
-        val message:MimeMessage = sender.createMimeMessage()
-        val helper = MimeMessageHelper(message,true)
+    override fun sendAttachmentMail(to: String, subject: String, content: String, file: Path) {
+        val message: MimeMessage = sender.createMimeMessage()
+        val helper = MimeMessageHelper(message, true)
         helper.setFrom(from)
         helper.setTo(to)
         helper.setSubject(subject)
         helper.setText(content)
-        helper.addAttachment(file.fileName.toString(),FileSystemResource(file))
+        helper.addAttachment(file.fileName.toString(), FileSystemResource(file))
         sender.send(message)
     }
 }
