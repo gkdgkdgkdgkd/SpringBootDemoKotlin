@@ -8,21 +8,20 @@ import org.springframework.web.bind.annotation.*
 
 @RestController
 @RequestMapping("/")
-class CRUDController
-{
+class CRUDController {
     @Autowired
     lateinit var service: Service
 
     @PostMapping("save")
-    fun save(@RequestBody user: User)=service.save(user)
+    fun save(@RequestBody user: User) = service.save(user)
 
     @GetMapping("delete")
-    fun delete(@RequestParam id:String)=service.delete(id)
+    fun delete(@RequestParam id: String) = service.delete(id)
 
     @GetMapping("select")
-    fun select(@RequestParam id:String)=service.select(id)
+    fun select(@RequestParam id: String) = service.select(id)
 
     @GetMapping("selectAll")
-    fun selectAll()=service.selectAll()
+    fun selectAll() = service.selectAll()
 
 }

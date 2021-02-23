@@ -8,17 +8,16 @@ import org.springframework.stereotype.Component
 
 @Mapper
 @Component
-interface UserMapper
-{
+interface UserMapper {
     @Select("select * from user where id = #{id}")
-    fun selectById(@Param("id") id:String): User?
+    fun selectById(@Param("id") id: String): User?
 
     @Select("select * from user")
-    fun selectAll():List<User>
+    fun selectAll(): List<User>
 
-    fun insert(@Param("user") user:User):Int
+    fun insert(@Param("user") user: User): Int
 
-    fun deleteById(@Param("id") id:String):Int
+    fun deleteById(@Param("id") id: String): Int
 
-    fun update(@Param("user") user: User):Int
+    fun update(@Param("user") user: User): Int
 }

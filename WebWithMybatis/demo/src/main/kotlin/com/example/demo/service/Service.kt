@@ -7,24 +7,22 @@ import org.springframework.stereotype.Service
 import org.springframework.web.bind.annotation.CrossOrigin
 
 @Service
-class Service
-{
+class Service {
     @Autowired
-    lateinit var mapper:UserMapper
+    lateinit var mapper: UserMapper
 
-    fun save(user: User):Boolean
-    {
+    fun save(user: User): Boolean {
         val currentUser = select(user.id)
-        if(currentUser!=null)
+        if (currentUser != null)
             mapper.update(user)
         else
             mapper.insert(user)
         return true
     }
 
-    fun select(id:String)=mapper.selectById(id)
+    fun select(id: String) = mapper.selectById(id)
 
-    fun selectAll()=mapper.selectAll()
+    fun selectAll() = mapper.selectAll()
 
-    fun delete(id:String)=mapper.deleteById(id) == 1
+    fun delete(id: String) = mapper.deleteById(id) == 1
 }

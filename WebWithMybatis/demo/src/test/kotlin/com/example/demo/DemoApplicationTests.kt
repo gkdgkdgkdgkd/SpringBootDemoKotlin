@@ -8,12 +8,9 @@ import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
 class DemoApplicationTests {
-    @Autowired
-    lateinit var service: Service
 
-    @Test
-    fun contextLoads() {
-    }
+    @Autowired
+    lateinit var service:Service
 
     @Test
     fun save() = println(service.save(User("1","222","333")))
@@ -26,5 +23,4 @@ class DemoApplicationTests {
 
     @Test
     fun selectAll() = println(service.selectAll())
-
 }
