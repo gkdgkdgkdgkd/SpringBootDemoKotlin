@@ -8,13 +8,12 @@ import org.springframework.stereotype.Component
 import org.springframework.stereotype.Service
 
 @Service
-class MyBatisPlusIService: ServiceImpl<UserMapper, User>(), UserService
-{
+class MyBatisPlusIService : ServiceImpl<UserMapper, User>(), UserService {
     override fun save(user: User) = saveOrUpdate(user)
 
-    fun delete(id:String) = removeById(id)
+    fun delete(id: String) = removeById(id)
 
-    fun select(id:String): User? = getById(id)
+    fun select(id: String): User? = getById(id)
 
-    fun selectAll():List<User> = list()
+    fun selectAll(): List<User> = list()
 }

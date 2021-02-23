@@ -7,32 +7,27 @@ import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class MyBatisPlusMapperTest
-{
+class MyBatisPlusMapperTest {
     @Autowired
     lateinit var myBatisPlusMapper: MyBatisPlusMapper
 
     @Test
-    fun save()
-    {
-        myBatisPlusMapper.save(User("2","3","4"))
+    fun save() {
+        myBatisPlusMapper.save(User("2", "3", "4"))
     }
 
     @Test
-    fun delete()
-    {
+    fun delete() {
         myBatisPlusMapper.delete("3")
     }
 
     @Test
-    fun select()
-    {
+    fun select() {
         println(myBatisPlusMapper.select("1"))
     }
 
     @Test
-    fun selectAll()
-    {
+    fun selectAll() {
         println(myBatisPlusMapper.selectAll())
     }
 }

@@ -7,21 +7,19 @@ import org.springframework.stereotype.Component
 import org.springframework.stereotype.Service
 
 @Service
-class MyBatisPlusMapper
-{
+class MyBatisPlusMapper {
     @Autowired
     private lateinit var mapper: UserMapper
 
-    fun save(user: User):Boolean
-    {
-        if(mapper.selectById(user.id) != null)
+    fun save(user: User): Boolean {
+        if (mapper.selectById(user.id) != null)
             return mapper.updateById(user) == 1
         return mapper.insert(user) == 1
     }
 
-    fun delete(id:String) = (mapper.deleteById(id) == 1)
+    fun delete(id: String) = (mapper.deleteById(id) == 1)
 
-    fun select(id:String): User? = mapper.selectById(id)
+    fun select(id: String): User? = mapper.selectById(id)
 
-    fun selectAll():List<User> = mapper.selectList(null)
+    fun selectAll(): List<User> = mapper.selectList(null)
 }
