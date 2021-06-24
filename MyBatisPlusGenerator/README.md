@@ -2,4 +2,8 @@
 
 注意，此示例运行失败，原因是官方暂时没有支持：
 
+![](https://github.com/2293736867/SpringBootDemoKotlin/blob/main/MyBatisPlusGenerator/error.png)
+
 另外`3.5.0`版本的`generator`不支持修改模板引擎（私有化成员，无Builder），因此暂时没有解决方案，望官方尽快修复。
+
+如果发现了解决方案欢迎`issue`/`pr`。
