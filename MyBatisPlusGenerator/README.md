@@ -7,3 +7,5 @@
 另外`3.5.0`版本的`generator`不支持修改模板引擎（私有化成员，无Builder），因此暂时没有解决方案，望官方尽快修复。
 
 如果发现了解决方案欢迎`issue`/`pr`。
+
+[博客地址](https://blog.csdn.net/qq_27525611/article/details/118197154)
