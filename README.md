@@ -4,9 +4,9 @@
 
 # 2 环境
 
-- `OpenJDK 11.0.10`
-- `IDEA 2020.3.2`
-- `Gradle 6.8`
+- `OpenJDK 11.0.11`
+- `IDEA 2021.1.2`
+- `Gradle 7.0`
 
 # 3 目前已实现
 
@@ -20,6 +20,7 @@
 - [Swagger](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Swagger)
 - [Jasypt](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Jasypt)
 - [Redis缓存](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/RedisCache)
+- [MyBatis Plus Generator](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/MyBatisPlusGenerator)
 
 # 4 `Kotlin`版实现其他地址
 
