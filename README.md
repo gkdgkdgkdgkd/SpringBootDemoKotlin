@@ -21,7 +21,8 @@
 - [Jasypt](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Jasypt)
 - [Redis缓存](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/RedisCache)
 - [MyBatis Plus Generator](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/MyBatisPlusGenerator)
-- [ShardingSphere + MyBatis Plus + MySQL 读写分离和主从复制](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/ShardingSphereMyBaitsPlusMySQLMasterSlave)
+- [ShardingSphere + MyBatis Plus + MySQL
+  读写分离和主从复制](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/ShardingSphereMyBatisPlusMySQLMasterSlave)
 
 # 4 `Kotlin`版实现其他地址
 
