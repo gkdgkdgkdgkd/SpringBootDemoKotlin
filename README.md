@@ -4,9 +4,10 @@
 
 # 2 环境
 
-- `OpenJDK 11.0.11`
-- `IDEA 2021.1.2`
-- `Gradle 7.0`
+- `OpenJDK 17.0.3+`
+- `Gradle 7.4.1+`
+- `Kotlin 1.6.21+`
+- `build.gradle.kts`
 
 # 3 目前已实现
 
