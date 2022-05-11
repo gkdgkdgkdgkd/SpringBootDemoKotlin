@@ -12,7 +12,7 @@
 # 3 目前已实现
 
 - [Helloworld](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/DemoHelloworld)
-- [Spring Web + MyBatis Plus](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/WebWithMyBatisPlus)
+- [Spring Web + MyBatis Plus](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/WebWithMyBatisPlus)
 - [Hibernate Validator](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/HibernateValidator)
 - [Docker部署](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Docker)
 - [HTTPS](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/HTTPS)
