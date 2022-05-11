@@ -9,21 +9,21 @@ import org.springframework.boot.test.context.SpringBootTest
 @SpringBootTest
 class MyBatisPlusIServiceTest {
     @Autowired
-    lateinit var myBatisPlusIService: MyBatisPlusIService
+    private lateinit var myBatisPlusIService: MyBatisPlusIService
 
     @Test
     fun save() {
-        myBatisPlusIService.save(User("1", "2", "3"))
+        myBatisPlusIService.save(User(3, "iservice-username-3", "iservice-password-3"))
     }
 
     @Test
     fun delete() {
-        myBatisPlusIService.delete("3")
+        myBatisPlusIService.delete(4)
     }
 
     @Test
     fun select() {
-        println(myBatisPlusIService.select("1"))
+        println(myBatisPlusIService.select(1))
     }
 
     @Test
@@ -31,4 +31,3 @@ class MyBatisPlusIServiceTest {
         println(myBatisPlusIService.selectAll())
     }
 }
-
