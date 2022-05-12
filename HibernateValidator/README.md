@@ -1,10 +1,22 @@
-# Hibernate Validator Demo
+# 内容
 
+`Hibernate Validator`
 
-# 特别说明
+包括：
 
-自定义`AOP`测试了一下并不能实现，查阅了很多资料，有的是说加上一个`kapt`插件，官方文档是加上一个`org.jetbrains.kotlin:kotlin-allopen`插件，修改了相关配置之后还是不行，因此`aop`包下的文件都注释了。
+- 基本使用（包`base`）
+- 快速失败（包`failfast`）
+- 组序列（包`group`）
+- 自定义注解（包`custom`）
+- AOP（包`aop`）
 
-另外参考了[该仓库](https://github.com/KotlinSpringBoot/demo2_aop_logging)，这个是能实现的，但是是在`JDK8`上，笔者在该仓库的基础上修改了一下配置，在`JDK11`上能运行，但是本仓库的`demo`却失败。
+# 环境
 
-望热心人士可以提个`PR`修复一下，笔者能力有限，感激不尽。
+- `spring-boot-starter-validation 2.6.7`
+- `spring-boot-starter-aop 2.6.7`
+
+# 博客
+
+[地址](https://blog.csdn.net/qq_27525611/article/details/108492845)
+
+**注意代码不与博客完全一样，因为代码后来有更新，添加了新的部分，博客为了展示更多的例子就保留了旧代码**
