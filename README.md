@@ -17,7 +17,7 @@
 - [Spring Web + MyBatis Plus](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/WebWithMyBatisPlus)
 - [Hibernate Validator](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/HibernateValidator)
 - [Docker部署](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/Docker)
-- [Mail](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Mail)
+- [Mail](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/Mail)
 - [Swagger](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Swagger)
 - [Jasypt](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Jasypt)
 - [Redis缓存](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/RedisCache)
