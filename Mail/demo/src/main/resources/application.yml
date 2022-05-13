@@ -1,10 +1,9 @@
 spring:
   mail:
     host: smtp.qq.com
-    username: ENC(5CSiFNWbI8kmmubimO+mEThdaNPp0IaTE6mA22qHV77T2gHjAcu66eH8k3Xkrq8S)
-    password: ENC(oirUCPalCo8oGqRYBUw2/e6cxcXLM4eHufwB6YJjDAOIhpQInA89D9I8BLwVfKA/)
+    username: ENC(XDBbgMG83fE/4TMzP3GDYcX9ixWDoEgYXGqpuyNDYeVb8t5CmKJWzc5XR8VQDnSk)
+    password: ENC(lnPGSxpiXbL7q26ORR8M7qzfh3jqNZlUDle5IbTVyUhux67Us4eu5f6xXptSjFIv)
     port: 465
-    default-encoding: UTF-8
     properties:
       mail:
         smtp:
@@ -15,6 +14,6 @@ spring:
             enable: true
             required: true
 
-jasypt:
-  encryptor:
-    password: test
+#jasypt:
+#  encryptor:
+#    password: test

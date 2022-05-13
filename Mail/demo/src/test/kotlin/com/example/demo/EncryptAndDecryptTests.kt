@@ -7,29 +7,18 @@ import org.springframework.beans.factory.annotation.Value
 import org.springframework.boot.test.context.SpringBootTest
 
 @SpringBootTest
-class EncryptAndDecrypt {
+class EncryptAndDecryptTests {
     @Autowired
     lateinit var encryptor: StringEncryptor
 
-    companion object {
-        var username = ""
-        var password = ""
-    }
-
     @Value("\${spring.mail.username}")
-    fun setUsername(value: String) {
-        username = value
-    }
-
+    lateinit var username:String
     @Value("\${spring.mail.password}")
-    fun setPassword(value: String) {
-        password = value
-    }
+    lateinit var password:String
 
     @Test
-    fun getEncrypted() = println(encryptor.encrypt(username) + "\n" + encryptor.encrypt(password))
+    fun encrypt() = println(encryptor.encrypt(username) + "\n" + encryptor.encrypt(password))
 
     @Test
-    fun getDecrypted() = println(username + "\n" + password)
-
+    fun decrypt() = println(username + "\n" + password)
 }

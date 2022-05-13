@@ -1,4 +1,4 @@
-# 1 Spring Boot demo
+# 1 Spring Boot Demo
 
 该仓库是`Spring Boot`的`Demo`合集，使用`Kotlin`实现。
 
@@ -8,6 +8,8 @@
 - `Gradle 7.4.1+`
 - `Kotlin 1.6.21+`
 - `build.gradle.kts`
+
+各个`Demo`的一些额外环境可以查看各个`Demo`的`README.md`。
 
 # 3 目前已实现
 
