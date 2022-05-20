@@ -4,6 +4,7 @@
 
 # 2 环境
 
+- `Spring Boot 2.7.0+`
 - `OpenJDK 17.0.3+`
 - `Gradle 7.4.1+`
 - `Kotlin 1.6.21+`
@@ -19,7 +20,7 @@
 - [Docker部署](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/Docker)
 - [Mail](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/Mail)
 - [Swagger](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/Swagger)
-- [Jasypt](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/Jasypt)
+- [Jasypt](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/Jasypt)
 - [Redis缓存](https://github.com/2293736867/SpringBootDemoKotlin/tree/master/RedisCache)
 - [MyBatis Plus Generator](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/MyBatisPlusGenerator)
 - [ShardingSphere + MyBatis Plus + MySQL
