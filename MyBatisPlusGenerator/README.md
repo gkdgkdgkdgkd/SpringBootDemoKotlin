@@ -1,11 +1,19 @@
-# MyBaits Plus Generator示例
+# 内容
 
-注意，此示例运行失败，原因是官方暂时没有支持：
+`MyBatis Plus Generator`。
 
-![](https://github.com/2293736867/SpringBootDemoKotlin/blob/main/MyBatisPlusGenerator/error.png)
+请使用之前准备好数据源以及连接的驱动。
 
-另外`3.5.0`版本的`generator`不支持修改模板引擎（私有化成员，无Builder），因此暂时没有解决方案，望官方尽快修复。
+数据源的话`resources/db`下有个`user.sql`直接导入即可。
 
-如果发现了解决方案欢迎`issue`/`pr`。
+运行`Generator`的`main`方法即可生成代码，配置请根据需要自行修改，可以参考博客或[官方文档](https://baomidou.com/pages/981406/)。
 
-[博客地址](https://blog.csdn.net/qq_27525611/article/details/118197154)
+# 环境
+
+- `com.baomidou:mybatis-plus-boot-starter:3.5.1`
+- `com.baomidou:mybatis-plus-generator:3.5.2`
+- `org.freemarker:freemarker:2.3.31`
+
+# 博客
+
+[地址](https://blog.csdn.net/qq_27525611/article/details/118197154)
