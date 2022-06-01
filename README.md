@@ -26,7 +26,7 @@
 - [ShardingSphereJDBC + MyBatis Plus + MySQL
   读写分离和主从复制](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/ShardingSphereJDBCReadWriteSplitting)
 - [ShardingSphereJDBC + MyBaits Plus + MySQL 分库分表](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/ShardingSphereJDBCSharding)
-- [ShardingSphere + MyBatis Plus + MySQL 分库分表 + 读写分离](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/ShardingSphereMyBatisPlusDataShardingAndReadWriteSplitting)
+- [ShardingSphereJDBC + MyBatis Plus + MySQL 分库分表 + 读写分离](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/ShardingSphereJDBCShardingAndReadWriteSplitting)
 
 # 4 `Kotlin`版实现其他地址
 
