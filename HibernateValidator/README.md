@@ -12,8 +12,8 @@
 
 # 环境
 
-- `spring-boot-starter-validation 2.6.7`
-- `spring-boot-starter-aop 2.6.7`
+- `spring-boot-starter-validation`
+- `spring-boot-starter-aop`
 
 # 博客
 
