@@ -1,0 +1,46 @@
+spring:
+  shardingsphere:
+    mode:
+      type: Memory                                         # ????????????????
+    datasource:
+      names: test0,test1                                   # ???????????
+      test0:                                               # ?????????
+        type: com.alibaba.druid.pool.DruidDataSource       # ???
+        url: jdbc:mysql://127.0.0.1:3306/test0             # ??url
+        username: root
+        password: 123456
+      test1:                                               # ?????????
+        type: com.alibaba.druid.pool.DruidDataSource
+        url: jdbc:mysql://127.0.0.1:3306/test1
+        username: root
+        password: 123456
+
+    rules:
+      sharding:
+        tables:
+          user:                                            # ????????????
+            actual-data-nodes: test$->{0..1}.user$->{0..2} # ?????????? ??$->{0..n1}.??$->{0..n2}
+                                                           # ??n1?n2??????-1????-1
+                                                           # ?????${0..n1}????????Spring?????????
+                                                           # ????$->{0..n1}???
+
+            database-strategy:                             # ????
+              standard:                                    # ??????
+                sharding-column: age                       # ????
+                sharding-algorithm-name: age-mod           # ??????
+            table-strategy:                                # ????
+              standard:                                    # ??????
+                sharding-column: id                        # ????
+                sharding-algorithm-name: id-mod            # ??????
+
+        sharding-algorithms:                               # ??????????
+          age-mod:                                         # ??????
+            type: MOD                                      # ???????
+            props:                                         # ??????????????????props?
+              sharding-count: 2                            # ????
+          id-mod:                                          # ??????
+            type: MOD                                      # ???????
+            props:                                         # ??????????????????props?
+              sharding-count: 3                            # ????
+    props:
+      sql-show: true                                       # ??SQL
