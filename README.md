@@ -25,7 +25,7 @@
 - [MyBatis Plus Generator](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/MyBatisPlusGenerator)
 - [ShardingSphereJDBC + MyBatis Plus + MySQL
   读写分离和主从复制](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/ShardingSphereJDBCReadWriteSplitting)
-- [ShardingSphere + MyBaits Plus + MySQL 分库分表](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/ShardingSphereMyBatisPlusDataSharding)
+- [ShardingSphereJDBC + MyBaits Plus + MySQL 分库分表](https://github.com/gkdgkdgkdgkd/SpringBootDemoKotlin/tree/main/ShardingSphereJDBCSharding)
 - [ShardingSphere + MyBatis Plus + MySQL 分库分表 + 读写分离](https://github.com/2293736867/SpringBootDemoKotlin/tree/main/ShardingSphereMyBatisPlusDataShardingAndReadWriteSplitting)
 
 # 4 `Kotlin`版实现其他地址
