@@ -8,7 +8,6 @@
 - `OpenJDK 17.0.3+`
 - `Gradle 7.4.1+`
 - `Kotlin 1.6.21+`
-- `build.gradle.kts`
 
 各个`Demo`的一些额外环境可以查看各个`Demo`的`README.md`。
 
